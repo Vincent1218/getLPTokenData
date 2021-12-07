@@ -73,7 +73,10 @@ for (let i = 0; i < tokenList.length; i++) {
       // visualising data
       console.log("Token A:" ,tokenA)
       console.log("Token B:" ,tokenB)
+      
       if(LPdata.pairs[0]){
+        console.log("x:y ratio", (LPdata.pairs[0].reserve0)/(LPdata.pairs[0].reserve1))
+        console.log("k value", (LPdata.pairs[0].reserve0)*(LPdata.pairs[0].reserve1))
         console.log("Pool Data",LPdata.pairs[0])
       }
       else{
