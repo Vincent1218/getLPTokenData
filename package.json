@@ -1,0 +1,20 @@
+{
+  "name": "getlptokendata",
+  "version": "1.0.0",
+  "description": "get lp token data from uniswap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "author": "pikacent",
+  "license": "ISC",
+  "dependencies": {
+    "@ethersproject/address": "^5.5.0",
+    "@ethersproject/solidity": "^5.5.0",
+    "axios": "^0.24.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.0.1"
+  }
+}
